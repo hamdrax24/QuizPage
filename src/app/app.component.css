@@ -1,0 +1,91 @@
+.header {
+    text-align: right;
+    padding: 1%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(87, 87, 87);
+}
+
+.quizEnd {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(245, 245, 245);
+    padding : 3%;
+    text-align: center;
+    text-size-adjust: 10px;
+}
+
+.quizStart {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 70px;
+    text-align: center;
+    text-size-adjust: 10px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.quizPage {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(245, 245, 245);
+    padding : 3%;
+}
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 50mm;
+}
+
+.leftbutton {
+    float: left;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #04AA6D;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 40px auto 40px auto;
+    visibility: visible !important;
+}
+
+.rightbutton {
+    float: right;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #04AA6D;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 40px auto 40px auto;
+    visibility: visible !important;
+}
+
+.centerbutton {
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #04AA6D;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 40px auto 40px auto;
+    visibility: visible !important;
+}
+
+.buttonGroup {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 90%;
+}

@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { QuizhomeComponent } from './quizhome/quizhome.component';
+import { QuizpageComponent } from './quizpage/quizpage.component';
+import { QuizendComponent } from './quizend/quizend.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuizhomeComponent,
+    QuizpageComponent,
+    QuizendComponent
   ],
   imports: [
     BrowserModule,
@@ -15,4 +21,6 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }
